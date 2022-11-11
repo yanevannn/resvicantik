@@ -9,15 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>UTS</title>
   </head>
+  <body id="home">
   <header>
-  <hea>
+  <head>
     <!--navigation-->
-    <>
+    
       <section class="navigation">
         <div class="container">
-          <div class="box-navigation">
+          <div class="box-navigation animate__animated animate_animate_fadeInDown">
             <div class="box">
               <h1>RR</h1>
             </div>
@@ -25,23 +28,23 @@
               <ul>
                 <li>
                   <i class="ri-home-3-line"></i>
-                  <a href="#">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li>
                   <i class="ri-information-line"></i>
-                  <a href="#">About</a>
+                  <a href="#about">About</a>
                 </li>
                 <li>
                   <i class="ri-line-chart-line"></i>
-                  <a href="#">Hobby</a>
+                  <a href="#hobby">Hobby</a>
                 </li>
                 <li>
                   <i class="ri-award-fill"></i>
-                  <a href="#">Campus Activity</a>
+                  <a href="#campus-activity">Campus Activity</a>
                 </li>
                 <li>
                   <i class="ri-message-2-line"></i>
-                  <a href="#">Contact</a>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -55,22 +58,22 @@
 
     <!--hero-->
     <section class="hero">
-        <h1>Welcome to My Website</h1>
+        <h1 class="animate__animated animate__pulse">Welcome to My Website</h1>
     </section> 
     <!--hero-->
   </header>
 
   <!-- about -->
-  <section class="about">
+  <section class="about" id="about">
     <div class="container">
         <div class="box-about">
-        <div class="box">
+        <div class="box" data-aos="fade-right" data-aos-duration="2000">
            <h1>Ni Putu Resvi Rahmaningtyas</h1> 
            <p>
             Saya Ni Putu Resvi Rahmaningtyas. Biasa dipanggil Resvi. Saya lahir di Gulingan, Mengwi, Badung, 17 Juli 2003. Saya sekarang sedang berkuliah di ITB STIKOM Bali. Jurusan saya adalah Sistem Informasi.
            </p>
         </div>
-        <div class="box">
+        <div class="box" data-aos="zoom-in" data-aos-duration="2000">
             <img src="CSS/doa.jpg">
         </div>
         </div>
@@ -79,57 +82,75 @@
   <!-- about -->
 
   <!-- hobby -->
-  <section class="hobby">
+  <section class="hobby" id="hobby">
     <div class="container">
       <div class="box-hobby">
-        <div class="box">
+        <div class="box" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
           <img src="CSS/hobinari.jpg" alt="" />
           <h1>Menari</h1>
           <p>Menari sudah saya sukai dari kelas 1 SD. Awal mulanya saya suka menari karena suka melihat riasan wajah dan pakaiannya. Kemudian saya tertarik untuk mengikuti les tari, dan belajar dari dasar.</p>
         </div>
-        <div class="box">
+        <div class="box" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
           <img src="CSS/masak.jpg" alt="" />
           <h1>Memasak</h1>
           <p>Saya suka masak karena suka makan. Selain itu, kalau masak sendiri biasanya lebih hemat dan makanannya dijamin lebih bersih.</p>
       </div>
-      <div class="box">
+      <div class="box" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
         <img src="CSS/travel.jpg" alt="" />
         <h1>Travelling</h1>
         <p>Travelling merupakan hobby yang menyenangkan. Saya menyukai travelling karena suka foto-fotoan di tempat yang bagus, agar saya menjadi Si Paling Instagramable :)</p>
     </div>
   </section>
   <!-- campus activity -->
-  <section class="gallery">
+  <section class="campus-activity" id="campus-activity">
     <div class="container">
-      <div class="box">
-        <img src="CSS/infi.jpg" alt="" />
-        <img src="CSS/pkb5.jpg" alt="" />
-        <img src="CSS/pkbrektor.jpg" alt="" />
-        <img src="CSS/pm.jpg" alt="" />
-        <img src="CSS/sekarjagat.jpg" alt="" />
-        <img src="CSS/yosakoi.jpg" alt="" />
+      <div class="box-campus-activity">
+        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
+          <img src="CSS/infi2.jpg" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100" />
+          <h1>Seminar Infinity</h1>
+          </div>
+        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300">
+          <img src="CSS/pkb2.jpg" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" />
+          <h1>PKB 2022</h1>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
+          <img src="CSS/pm2.jpg" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" />
+          <h1>Pengabdian Masyarakat</h1>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="700">
+          <img src="CSS/sekar2.jpg" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="700" />
+          <h1>Sekar Jagat</h1>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="900">
+          <img src="CSS/pm22.jpg" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="900" />
+          <h1>Pengabdian Masyarakat</h1>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="1100">
+          <img src="CSS/yosakoi2.jpg" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="1100" />
+          <h1>Lomba Tari Yosakoi</h1>
+        </div>
     </div>
   </section>
 
   <!-- contact -->
-  <section>
+  <section class="contact" id="contact">
     <div class="contact">
       <div class="container">
         <div class="box-contact">
-          <h1>Contact</h1>
-          <form action="">
+          <h1 data-aos="fade-right" data-aos-duration="2000">Contact</h1>
+          <form action="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">
             <table>
               <tr>
                 <td><label for="nama">Nama</label></td>
-                <td><input type="text" id="nama" name="nama"></td>
+                <td><input type="text" id="nama" name="nama" placeholder="Masukkan Nama" autocomplete="off"></td>
               </tr>
               <tr>
                 <td><label for="email">Email</label></td>
-                <td><input type="text" id="email" name="email"></td>
+                <td><input type="text" id="email" name="email" placeholder="Masukkan Email" autocomplete="off"></td>
               </tr>
               <tr>
                 <td><label for="pesan">Pesan</label></td>
-                <td><textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>></td>
+                <td><textarea name="pesan" id="pesan" placeholder="Masukkan Pesan" autocomplete="off"></textarea></td>
               </tr>
             </table>
           </form>
@@ -137,6 +158,16 @@
       </div>
     </div>
   </section>
+
+  <!--footer-->
+  <footer>
+    <p>&copy; 2022 by Resvi Rahma</p>
+  </footer>
+
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
