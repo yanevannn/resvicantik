@@ -19,6 +19,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: #9a7662;
 }
 
 .navigation {
@@ -34,8 +35,8 @@ header {
 }
 
 .navigation .box-navigation .box:nth-child(1) h1 {
-  font-size: 30px;
-  color: white;
+  font-size: 50px;
+  color: bisque;
 }
 
 .navigation .box-navigation .box:nth-child(2) ul {
@@ -50,12 +51,12 @@ header {
 
 .navigation .box-navigation .box:nth-child(2) ul li a {
   text-decoration: none;
-  color: white;
+  color: bisque;
   transition: all 0.3s ease;
 }
 
 .navigation .box-navigation .box:nth-child(2) ul li a:hover {
-  color: black;
+  color: slategray;
 }
 
 .navigation .box-navigation .box:nth-child(3) {
@@ -75,7 +76,7 @@ header .hero {
 }
 
 header .hero h1 {
-  color: white;
+  color: #d5bdaf;
   font-size: 40px;
   text-align: center;
 }
@@ -102,6 +103,7 @@ header .hero h1 {
 
 .about .box-about .box:nth-child(1) h1 {
   font-size: 42px;
+  color: lightslategrey;
   margin-bottom: 20px;
 }
 
@@ -134,6 +136,7 @@ header .hero h1 {
   height: 400px;
   width: 310px;
   text-align: center;
+  color: gray;
   margin-inline: 20px;
 }
 
@@ -159,6 +162,7 @@ header .hero h1 {
   justify-content: center;
   align-items: center;
   font-size: small;
+  color: grey;
   text-align: center;
 }
 
@@ -193,7 +197,7 @@ header .hero h1 {
 .contact .box-contact h1 {
   font-size: 50px;
   font-weight: 700;
-  color: white;
+  color: gray;
 }
 
 .contact .box-contact form table tr {
@@ -203,18 +207,20 @@ header .hero h1 {
 
 .contact .box-contact form table tr td label {
   font-size: 20px;
-  color: white;
+  color: gray;
 }
 
 .contact .box-contact form table tr td input {
   padding: 15px 60px 15px 20px;
   margin-top: 10px;
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 .contact .box-contact form table tr td textarea {
   margin-top: 10px;
   padding: 15px 200px 200px 20px;
+  border-radius: 10px;
 }
 
 /* footer */
