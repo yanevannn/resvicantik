@@ -73,6 +73,7 @@ header .hero {
   top: 50%;
   right: 50%;
   transform: translate(50%, -50%);
+  font-family: 'Dancing Script', cursive;
 }
 
 header .hero h1 {
